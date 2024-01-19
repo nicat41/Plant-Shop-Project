@@ -54,3 +54,7 @@ img {
 body {
     overflow-x: hidden;
 }
+
+body * {
+	font-family: 'Work Sans', sans-serif;
+}

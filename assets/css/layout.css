@@ -1,0 +1,46 @@
+.room-img {
+  background-image: url(../img/modern-living-room-sofaa.png);
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+.header .container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.logo span {
+  font-weight: 700;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+}
+.nav {
+  display: flex;
+  gap: 68px;
+}
+
+.nav .navbar {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.nav .navbar .active {
+color: rgb(90deg, #2AF598 0%, #009EFD 100%);
+}
+
+/* ///////////////////////////////////////////// section */
+
+
+

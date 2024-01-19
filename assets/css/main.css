@@ -1,0 +1,206 @@
+.plants {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+.plants .container .title {
+  padding-top: 90px;
+  margin-bottom: 24px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: normal;
+}
+.plants .container .text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  padding-bottom: 42px;
+  padding: 0px 300px;
+  padding-bottom: 42px;
+}
+.input {
+  display: flex;
+  padding-bottom: 600px;
+  justify-content: center;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 20px;
+}
+
+input {
+  border: none;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  width: 463px;
+  padding: 24px 30px;
+}
+
+.Search {
+  width: 50px;
+  height: 50px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////   yarimciq qalib */
+
+.shipping .container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 142px;
+}
+
+.shipping .container .card {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.shipping .container .card .card-item {
+  width: 84px;
+  height: 84px;
+}
+.shipping .container .card p {
+  font-size: 32px;
+  font-weight: 500;
+  color: #081323;
+  margin-bottom: 16px;
+}
+
+.shipping .container .card span {
+  color: #828282;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// bestseller */
+
+.BestSeller .container {
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.rose {
+  display: flex;
+  column-gap: 32px;
+}
+.BestSeller .container .box {
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(190, 186, 186, 0.2),
+    0 6px 20px 0 rgba(198, 194, 194, 0.19);
+  background: #c1d0e4;
+}
+.BestSeller .container .right {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.BestSeller .container .right .text {
+  font-weight: 500;
+}
+
+.information {
+  padding: 20px 30px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.BestSeller .container .rose .box .information .cammile {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.BestSeller .container .rose .box .click {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.BestSeller .container .rose .box .click .money {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// bestseller */
+.Reference {
+  padding-bottom: 182px;
+}
+
+.Reference .container .plant {
+  text-align: center;
+}
+
+.Reference .container .plant .title {
+  padding-bottom: 27px;
+}
+
+.Reference .container .plant .text {
+  padding-bottom: 92px;
+}
+
+.Reference .container .room {
+  display: flex;
+  column-gap: 32px;
+  border: 1px solid red;
+}
+
+.Reference .container .room .living-room {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////   for-plants             */
+.for-plants {
+  padding-bottom: 210px;
+}
+
+.for-plants .container {
+  display: flex;
+  align-items: end;
+}
+
+.for-plants .container .box {
+  display: flex;
+  padding-right: 40px;
+  column-gap: 24px;
+}
+
+.for-plants .container .box:not(:last-child) {
+  margin-bottom: 28px;
+}
+.for-plants .container .take {
+  padding-bottom: 82px;
+}
+
+.for-plants .container .take .title {
+  margin-bottom: 28px;
+  padding-right: 40%;
+  line-height: normal;
+}
+
+.for-plants .container .box span {
+  font-size: 32px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.for-plants .container .box p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4f4f4f;
+  line-height: normal;
+  padding-right: 85px;
+}
+
+.figure {
+  width: 500px;
+  height: 500px;
+}
