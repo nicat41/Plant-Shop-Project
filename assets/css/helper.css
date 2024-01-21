@@ -66,3 +66,10 @@
   width: 68px;
   height: 68px;
 }
+
+.shape {
+  width: 54px;
+  height: 54px;
+  background-color: transparent;
+  position: absolute;
+}
