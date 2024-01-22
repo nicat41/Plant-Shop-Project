@@ -149,7 +149,9 @@ input {
   display: block;
   background: transparent;
 }
-
+.shapee:hover {
+color: #081323;
+}
 .shape-3 {
   position: absolute;
   right: 20px;
@@ -211,7 +213,7 @@ input {
   position: absolute;
   z-index: -1;
   width: 100%;
-  top: 90px;
+  top: 95px;
   box-shadow: 0 4px 8px 0 rgba(190, 186, 186, 0.2),
     0 6px 20px 0 rgba(198, 194, 194, 0.19);
   background: #c1d0e4;
