@@ -3,6 +3,7 @@
   text-align: center;
   position: relative;
   margin-bottom: 100px;
+  height: 100vh;
 }
 
 .plants::after {
@@ -13,20 +14,23 @@
   right: 0;
   bottom: 0;
   z-index: -1;
-  height: 150vh;
   background-image: url(../img/modern-sofa.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .shadow {
-  padding-top: 200px;
+  position: absolute;
+  bottom: -5px;
 }
+
 .plants .container {
   position: relative;
 }
+
 .plants .container .title {
-  padding-top: 90px;
+  padding-top: 50px;
   margin-bottom: 24px;
   font-size: 64px;
   font-weight: 600;
@@ -44,6 +48,7 @@
   padding-bottom: 42px;
   color: #fff;
 }
+
 .input {
   display: inline-flex;
   justify-content: space-between;
@@ -51,10 +56,13 @@
   border: 1px solid #fff;
   border-radius: 50px;
   padding: 10px 12px;
-
   width: 463px;
 }
-
+.input-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
 ::placeholder {
   color: #fff;
   font-size: 20px;
@@ -71,22 +79,82 @@ input {
   height: 50px;
   flex-shrink: 0;
 }
+/* ///////////////////////////////////////////////////////// */
+
+.border .title-money {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.text.personal {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.border {
+  border: 1px solid rgba(255, 253, 253, 0.2);
+  background-color: rgba(255, 253, 253, 0.2);
+  width: 180px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.first {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+
+.shape-1:hover .first {
+  display: block;
+  background: transparent;
+}
 
 .shape-1 {
-  right: 1px;
-  top: 410px;
-} 
-
-.shape-1:hover {
-  background-color: #081323;
+  position: absolute;
+  left: 70px;
+  top: 300px;
 }
 
-.shape-img {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
+/* ///////////////////////////////////////////////////////////// */
+
+.second {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  right: -70px;
 }
 
+.shape-2:hover .second {
+  display: block;
+  background: transparent;
+}
+
+.shape-2 {
+  position: absolute;
+  left: 5px;
+  top: 180px;
+}
+/* ////////////////////////////////////////////////////////////////////// */
+.third {
+  display: none;
+  position: absolute;
+  bottom: 80px;
+  left: -80px;
+}
+
+.shape-3:hover .third {
+  display: block;
+  background: transparent;
+}
+
+.shape-3 {
+  position: absolute;
+  right: 20px;
+  top: 300px;
+}
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////   yarimciq qalib */
 
@@ -118,4 +186,147 @@ input {
   color: #828282;
   font-size: 20px;
   font-weight: 500;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// bestseller */
+
+.BestSeller .container {
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.rose {
+  display: flex;
+  column-gap: 32px;
+}
+.BestSeller .container .box {
+  position: relative;
+}
+
+.BestSeller .container .box .box-item {
+  height: 200px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  top: 90px;
+  box-shadow: 0 4px 8px 0 rgba(190, 186, 186, 0.2),
+    0 6px 20px 0 rgba(198, 194, 194, 0.19);
+  background: #c1d0e4;
+}
+.BestSeller .container .right {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  
+}
+
+.BestSeller .container .right .text {
+  font-weight: 500;
+}
+
+.information {
+  padding: 20px 30px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 8px 0 rgba(190, 186, 186, 0.2),
+  0 6px 20px 0 rgba(198, 194, 194, 0.19);
+}
+
+.BestSeller .container .rose .box .information .cammile {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.BestSeller .container .rose .box .click {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.BestSeller .container .rose .box .click .money {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// bestseller */
+.Reference {
+  padding-bottom: 182px;
+}
+
+.Reference .container .plant {
+  text-align: center;
+}
+
+.Reference .container .plant .title {
+  padding-bottom: 27px;
+}
+
+.Reference .container .plant .text {
+  padding-bottom: 92px;
+}
+
+.Reference .container .room {
+  display: flex;
+  column-gap: 32px;
+  border: 1px solid red;
+}
+
+.Reference .container .room .living-room {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////   for-plants             */
+.for-plants {
+  padding-bottom: 210px;
+}
+
+.for-plants .container {
+  display: flex;
+  align-items: end;
+}
+
+.for-plants .container .box {
+  display: flex;
+  padding-right: 40px;
+  column-gap: 24px;
+}
+
+.for-plants .container .box:not(:last-child) {
+  margin-bottom: 28px;
+}
+.for-plants .container .take {
+  padding-bottom: 82px;
+}
+
+.for-plants .container .take .title {
+  margin-bottom: 28px;
+  padding-right: 40%;
+  line-height: normal;
+}
+
+.for-plants .container .box span {
+  font-size: 32px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.for-plants .container .box p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4f4f4f;
+  line-height: normal;
+  padding-right: 85px;
+}
+
+.figure {
+  width: 500px;
+  height: 500px;
 }

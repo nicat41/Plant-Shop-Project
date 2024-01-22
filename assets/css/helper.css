@@ -67,9 +67,17 @@
   height: 68px;
 }
 
+.shape-img {
+  width: 45px;
+  height: 45px;
+}
+
 .shape {
-  width: 54px;
-  height: 54px;
   background-color: transparent;
-  position: absolute;
+  position: relative;
+  cursor: pointer;
+  object-fit: cover;
+}
+.relative {
+  position: relative;
 }
