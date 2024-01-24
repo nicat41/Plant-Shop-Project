@@ -23,6 +23,8 @@
 .shadow {
   position: absolute;
   bottom: -5px;
+  left: 0px;
+  right: 0px;
 }
 
 .plants .container {
@@ -79,14 +81,13 @@ input {
   height: 50px;
   flex-shrink: 0;
 }
-/* ///////////////////////////////////////////////////////// */
 
 .border .title-money {
   font-size: 32px;
   font-weight: 700;
 }
 
-.text.personal {
+.text-personal {
   font-weight: 700;
   font-size: 16px;
 }
@@ -103,8 +104,8 @@ input {
 .first {
   display: none;
   position: absolute;
-  bottom: 50px;
-  left: 20px;
+  bottom: 70%;
+  left: 99%;
 }
 
 .shape-1:hover .first {
@@ -114,17 +115,16 @@ input {
 
 .shape-1 {
   position: absolute;
-  left: 70px;
-  top: 300px;
+  left: 4%;
+  top: 88%;
 }
 
-/* ///////////////////////////////////////////////////////////// */
 
 .second {
   display: none;
   position: absolute;
-  bottom: 50px;
-  right: -70px;
+  bottom: 130%;
+  left: -60%;
 }
 
 .shape-2:hover .second {
@@ -134,15 +134,13 @@ input {
 
 .shape-2 {
   position: absolute;
-  left: 5px;
-  top: 180px;
+  top: 45%;
 }
-/* ////////////////////////////////////////////////////////////////////// */
 .third {
   display: none;
   position: absolute;
-  bottom: 80px;
-  left: -80px;
+  bottom: 130%;
+  right: -99%;
 }
 
 .shape-3:hover .third {
@@ -150,12 +148,12 @@ input {
   background: transparent;
 }
 .shapee:hover {
-color: #081323;
+  color: #081323;
 }
 .shape-3 {
   position: absolute;
-  right: 20px;
-  top: 300px;
+  right: 1%;
+  top: 88%;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////   yarimciq qalib */
@@ -190,11 +188,9 @@ color: #081323;
   font-weight: 500;
 }
 
-/* ///////////////////////////////////////////////////////////////////////////////////////// bestseller */
-
 .BestSeller .container {
   display: flex;
-  padding-bottom: 100px;
+  padding-bottom: 180px;
   justify-content: center;
   align-items: center;
 }
@@ -222,7 +218,6 @@ color: #081323;
   display: flex;
   align-items: center;
   column-gap: 8px;
-  
 }
 
 .BestSeller .container .right .text {
@@ -233,8 +228,7 @@ color: #081323;
   padding: 20px 30px;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 1);
-  box-shadow: 0 4px 8px 0 rgba(190, 186, 186, 0.2),
-  0 6px 20px 0 rgba(198, 194, 194, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(190, 186, 186, 0.2), 0 6px 20px 0 rgba(198, 194, 194, 0.19);
 }
 
 .BestSeller .container .rose .box .information .cammile {
@@ -255,7 +249,6 @@ color: #081323;
   font-weight: 500;
 }
 
-/* ///////////////////////////////////////////////////////////////////////////////////////// bestseller */
 .Reference {
   padding-bottom: 182px;
 }
@@ -269,22 +262,58 @@ color: #081323;
 }
 
 .Reference .container .plant .text {
-  padding-bottom: 92px;
+  padding-bottom: 82px;
 }
 
 .Reference .container .room {
   display: flex;
   column-gap: 32px;
-  border: 1px solid red;
 }
-
+.height-500 {
+  height: 500px;
+}
 .Reference .container .room .living-room {
   display: flex;
   flex-direction: column;
   row-gap: 32px;
 }
 
-/* /////////////////////////////////////////////////////////////////////////////////   for-plants             */
+.rooms {
+  display: none;
+  font-size: 64px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 50px;
+  inset: 0px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.img-room2 {
+  height: 400px;
+}
+.room-name {
+  position: absolute;
+}
+
+.living:hover .room-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Guest:hover .room-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Stair:hover .room-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 935px;
+}
+
 .for-plants {
   padding-bottom: 210px;
 }

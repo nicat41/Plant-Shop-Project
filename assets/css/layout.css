@@ -1,5 +1,3 @@
-
-
 .header {
   height: 100px;
   display: flex;
@@ -35,11 +33,100 @@ nav .navbar {
   font-weight: 400;
 }
 
-nav .navbar .active {
-background-color: var(--gradient2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+nav .navbar.active {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  
 }
 
-
-
-
 /* ///////////////////////////////////////////// section */
+
+.footer {
+  padding: 120px 0px;
+  color: #fff;
+  background: linear-gradient(94deg, #566270 0.51%, #283444 100%);
+}
+
+.footer .container .footer-container {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 122px;
+  padding-bottom: 52px;
+}
+
+.nav-container {
+  display: flex;
+  width: 950px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.nav-container .nav-item * {
+  display: block;
+}
+
+.footer-container .personal .title {
+  font-size: 48px;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 25px;
+  padding-left: 11px;
+}
+
+.footer-container .personal .email {
+  border: 1px solid #fff;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 12px 10px;
+  border-radius: 50px;
+}
+
+.footer-container .personal .email label {
+  color: #fff;
+}
+
+.footer-container .personal .email button {
+  background: var(
+    --gradient2,
+    linear-gradient(90deg, #2af598 0%, #009efd 100%)
+  );
+  border-radius: 50px;
+  font-size: 20px;
+  color: #fff;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.nav-container .nav-item p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+
+.nav-container .nav-item a {
+  color: #fff;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.nav-container .nav-item a:not(:last-child) {
+  margin-bottom: 17px;
+}
+
+.vv {
+  padding-right: 30%;
+}
+
+.hr {
+  border-top: 1px solid rgba(255, 255, 255, 1);
+}
+
+.hr .reserved {
+  display: block;
+  padding-top: 52px;
+  text-align: center;
+  color: #fff;
+}
