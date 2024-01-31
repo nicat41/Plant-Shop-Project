@@ -1,4 +1,4 @@
-.header { 
+.header {
   height: 100px;
   display: flex;
   align-items: center;
@@ -35,10 +35,13 @@ nav .navbar {
 
 nav .navbar.active {
   font-weight: 600;
-  background: var(--gradient2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: var(
+    --gradient2,
+    linear-gradient(90deg, #2af598 0%, #009efd 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .footer {
@@ -56,9 +59,8 @@ background-clip: text;
 
 .nav-container {
   display: flex;
-  width: 950px;
-  justify-content: space-between;
-  align-items: flex-start;
+  column-gap: 50px;
+  justify-content: center;
 }
 .nav-container .nav-item * {
   display: block;
@@ -101,21 +103,27 @@ background-clip: text;
 .nav-container .nav-item p {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 33px;
+  padding-bottom: 30px;
+  line-height: 150%;
 }
 
-.nav-container .nav-item a {
+.nav-container .nav-item .text {
   color: #fff;
+  font-size: 16px;
   font-weight: 500;
   line-height: 150%;
+  white-space: nowrap;
 }
 
 .nav-container .nav-item a:not(:last-child) {
   margin-bottom: 17px;
 }
 
-.java{
-  padding-right: 30%;
+.java {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
 }
 
 .hr {
